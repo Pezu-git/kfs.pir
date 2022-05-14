@@ -1,0 +1,59 @@
+body {
+    margin: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button {
+    cursor: pointer;
+    padding-top: 2px;
+    padding-bottom: 2px;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.header_menu {
+  display: flex;
+  justify-content: space-between; 
+	width: 100%;
+}
+.header_btn {
+  display: flex;
+  margin-bottom: 20px;
+  width: 330px;
+  justify-content: space-between;
+}
+.card_btn {
+	display: flex;
+  margin-top: 20px;
+	margin-bottom: 20px;
+  width: 375px;
+  justify-content: space-between;
+}
+.header_search {
+	display: flex;
+	height: 38px;
+}
+.find_claborator {
+  height: 18px;
+}
+.rec_container {
+	width: 700px;
+}
+.tel { 
+	-moz-appearance: textfield;
+}
+.tel::-webkit-inner-spin-button { 
+	display: none;
+}
+.recruitment {
+	margin-right: 10px;
+}
+.card_footer {
+	display: flex;
+}
+
